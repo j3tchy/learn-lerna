@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean -y",
+    "storybook": "lerna run storybook --stream",
+    "starter-kit": "lerna run start --stream"
+  }
+}
